@@ -1,6 +1,8 @@
-# Page Summarizer Chrome Extension
+# AI SDK Page Summarizer Chrome Extension
 
-A Chrome extension that generates AI-powered audio summaries of web pages using the AI SDK and ElevenLabs text-to-speech.
+![ai-sdk-chrome-extension](ai-sdk-chrome-extension.png)
+
+A Chrome extension that generates trailer-like audio summaries of web pages using the [AI SDK](https://ai-sdk.dev) and [ElevenLabs](https://elevenlabs.io) text-to-speech.
 
 ## Installation
 
@@ -25,6 +27,18 @@ A Chrome extension that generates AI-powered audio summaries of web pages using 
    - Enable "Developer mode" (top right)
    - Click "Load unpacked"
    - Select the `extension` directory
+
+## Server Deployment
+
+1. **Clone this repository**
+2. **Create a new Vercel project**
+3. **Import the repository**
+4. **Configure the root directory:**
+   - Click "Edit" next to Root Directory
+   - In the modal that appears, select `server`
+5. **Add environment variable:**
+   - Add your ElevenLabs API key as `ELEVENLABS_API_KEY`
+6. **Deploy the project**
 
 ## Usage
 
